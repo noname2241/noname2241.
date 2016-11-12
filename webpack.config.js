@@ -13,8 +13,7 @@ var config = {
   devServer : {
     host: 'localhost',
     port: 2222,
-    hot: true,
-    contentBase: __dirname + '/src/client'
+    hot: true
   }, 
   module : {
     loaders : [
